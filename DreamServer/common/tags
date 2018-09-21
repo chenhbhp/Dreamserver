@@ -1,0 +1,314 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.8	//
+BRS_ERROR_Transition	BevTree.h	/^		BRS_ERROR_Transition	= -1$/;"	e	enum:BevTree::BevRunningStatus
+BRS_Executing	BevTree.h	/^		BRS_Executing			= 0,$/;"	e	enum:BevTree::BevRunningStatus
+BRS_Finish	BevTree.h	/^		BRS_Finish				= 1,$/;"	e	enum:BevTree::BevRunningStatus
+BSTNode	BSTree.h	/^	struct BSTNode$/;"	s	namespace:BSTree
+BSTNodeData	BSTree.h	/^	struct BSTNodeData$/;"	s	namespace:BSTree
+BSTNodeDataType	BSTree.h	/^		typedef BSTNodeData<ExtraType> BSTNodeDataType;$/;"	t	class:BSTree::BSTree
+BSTree	BSTree.h	/^		BSTree(DST::uint32_t lb, DST::uint32_t rb)$/;"	f	class:BSTree::BSTree
+BSTree	BSTree.h	/^	class BSTree$/;"	c	namespace:BSTree
+BSTree	BSTree.h	/^namespace BSTree$/;"	n
+BSTreeNode	BSTree.h	/^		typedef BSTNode<ExtraType> BSTreeNode;$/;"	t	class:BSTree::BSTree
+BevNode	BevTree.h	/^		BevNode(BevNode* parentNode, BevNodePrecondition* precondition = nullptr)$/;"	f	class:BevTree::BevNode
+BevNode	BevTree.h	/^	class BevNode : public Object$/;"	c	namespace:BevTree
+BevNodeFactory	BevTree.h	/^	class BevNodeFactory$/;"	c	namespace:BevTree
+BevNodeInputParam	BevTree.h	/^	typedef DST::AnyData BevNodeInputParam;$/;"	t	namespace:BevTree
+BevNodeLoop	BevTree.h	/^		BevNodeLoop(BevNode* parentNode, BevNodePrecondition* precondition = nullptr, DST::int32_t loopCount = InfiniteLoop)$/;"	f	class:BevTree::BevNodeLoop
+BevNodeLoop	BevTree.h	/^	class BevNodeLoop : public BevNode$/;"	c	namespace:BevTree
+BevNodeMultiPreconditionAND	BevTree.h	/^		BevNodeMultiPreconditionAND(std::vector<BevNodePrecondition*> &conVec)$/;"	f	class:BevTree::BevNodeMultiPreconditionAND
+BevNodeMultiPreconditionAND	BevTree.h	/^	class BevNodeMultiPreconditionAND : public BevNodePrecondition$/;"	c	namespace:BevTree
+BevNodeMultiPreconditionOR	BevTree.h	/^		BevNodeMultiPreconditionOR(std::vector<BevNodePrecondition*> &conVec)$/;"	f	class:BevTree::BevNodeMultiPreconditionOR
+BevNodeMultiPreconditionOR	BevTree.h	/^	class BevNodeMultiPreconditionOR : public BevNodePrecondition$/;"	c	namespace:BevTree
+BevNodeNonePrioritySelector	BevTree.h	/^		BevNodeNonePrioritySelector(BevNode* parentNode, BevNodePrecondition* precondition = nullptr)$/;"	f	class:BevTree::BevNodeNonePrioritySelector
+BevNodeNonePrioritySelector	BevTree.h	/^	class BevNodeNonePrioritySelector : public BevNodePrioritySelector$/;"	c	namespace:BevTree
+BevNodeOutputParam	BevTree.h	/^	typedef DST::AnyData BevNodeOutputParam;$/;"	t	namespace:BevTree
+BevNodeParallel	BevTree.h	/^		BevNodeParallel(BevNode* parentNode, BevNodePrecondition* precondition = nullptr)$/;"	f	class:BevTree::BevNodeParallel
+BevNodeParallel	BevTree.h	/^	class BevNodeParallel : public BevNode$/;"	c	namespace:BevTree
+BevNodePrecondition	BevTree.h	/^	class BevNodePrecondition : public Object$/;"	c	namespace:BevTree
+BevNodePreconditionAND	BevTree.h	/^		BevNodePreconditionAND(BevNodePrecondition* lhs, BevNodePrecondition* rhs)$/;"	f	class:BevTree::BevNodePreconditionAND
+BevNodePreconditionAND	BevTree.h	/^	class BevNodePreconditionAND : public BevNodePrecondition$/;"	c	namespace:BevTree
+BevNodePreconditionFALSE	BevTree.h	/^	class BevNodePreconditionFALSE : public BevNodePrecondition$/;"	c	namespace:BevTree
+BevNodePreconditionNOT	BevTree.h	/^		BevNodePreconditionNOT(BevNodePrecondition* lhs)$/;"	f	class:BevTree::BevNodePreconditionNOT
+BevNodePreconditionNOT	BevTree.h	/^	class BevNodePreconditionNOT : public BevNodePrecondition$/;"	c	namespace:BevTree
+BevNodePreconditionOR	BevTree.h	/^		BevNodePreconditionOR(BevNodePrecondition* lhs, BevNodePrecondition* rhs)$/;"	f	class:BevTree::BevNodePreconditionOR
+BevNodePreconditionOR	BevTree.h	/^	class BevNodePreconditionOR : public BevNodePrecondition$/;"	c	namespace:BevTree
+BevNodePreconditionXOR	BevTree.h	/^		BevNodePreconditionXOR(BevNodePrecondition* lhs, BevNodePrecondition* rhs)$/;"	f	class:BevTree::BevNodePreconditionXOR
+BevNodePreconditionXOR	BevTree.h	/^	class BevNodePreconditionXOR : public BevNodePrecondition$/;"	c	namespace:BevTree
+BevNodePreconditonTRUE	BevTree.h	/^	class BevNodePreconditonTRUE : public BevNodePrecondition$/;"	c	namespace:BevTree
+BevNodePrioritySelector	BevTree.h	/^		BevNodePrioritySelector(BevNode* parentNode, BevNodePrecondition* precondition = nullptr)$/;"	f	class:BevTree::BevNodePrioritySelector
+BevNodePrioritySelector	BevTree.h	/^	class BevNodePrioritySelector : public BevNode$/;"	c	namespace:BevTree
+BevNodeSequence	BevTree.h	/^		BevNodeSequence(BevNode* parentNode, BevNodePrecondition* precondition = nullptr)$/;"	f	class:BevTree::BevNodeSequence
+BevNodeSequence	BevTree.h	/^	class BevNodeSequence : public BevNode$/;"	c	namespace:BevTree
+BevNodeTerminal	BevTree.h	/^		BevNodeTerminal(BevNode* parentNode, BevNodePrecondition* precondition = nullptr)$/;"	f	class:BevTree::BevNodeTerminal
+BevNodeTerminal	BevTree.h	/^	class BevNodeTerminal : public BevNode$/;"	c	namespace:BevTree
+BevRunningStatus	BevTree.h	/^	enum BevRunningStatus$/;"	g	namespace:BevTree
+BevTree	BevTree.cpp	/^namespace BevTree$/;"	n	file:
+BevTree	BevTree.h	/^namespace BevTree$/;"	n
+CHECK_INDEX	FileParser.h	9;"	d
+CH_SIZE	MapTrie.h	10;"	d
+CH_SIZE	MapTrie.h	13;"	d
+C_Str	MapTrie.h	/^	const char* C_Str()$/;"	f	class:CharAlter
+CharAlter	MapTrie.h	/^	CharAlter()$/;"	f	class:CharAlter
+CharAlter	MapTrie.h	/^class CharAlter$/;"	c
+ExtraDataType	BSTree.h	/^		typedef DST::ExtraData<ExtraType> ExtraDataType;$/;"	t	class:BSTree::BSTree
+FileParser	FileParser.cpp	/^FileParser::FileParser(const char* filePath)$/;"	f	class:FileParser
+FileParser	FileParser.cpp	/^FileParser::FileParser(const std::string& filePath)$/;"	f	class:FileParser
+FileParser	FileParser.h	/^class FileParser:public Object$/;"	c
+GetChar	MapTrie.h	/^	void GetChar(const char* str)$/;"	f	class:CharAlter
+Global_Config	Config.h	/^	Global_Config()$/;"	f	struct:Global_Config
+Global_Config	Config.h	/^struct Global_Config$/;"	s
+HashMapTrieNode	MapTrie.h	/^struct HashMapTrieNode$/;"	s
+INVALID_CHILD_NODE_INDEX	BevTree.h	12;"	d
+IndexType	Trie.h	/^class IndexType$/;"	c
+InfiniteLoop	BevTree.h	/^		static const DST::int32_t InfiniteLoop = -1;$/;"	m	class:BevTree::BevNodeLoop
+MAX_CHILD_NODE_COUNT	BevTree.h	11;"	d
+MapTrie	MapTrie.h	/^	MapTrie() {}$/;"	f	class:MapTrie
+MapTrie	MapTrie.h	/^class MapTrie$/;"	c
+MapTrieNode	MapTrie.h	/^struct MapTrieNode$/;"	s
+Node	MapTrie.h	/^	typedef NodeType	Node;$/;"	t	class:MapTrie
+Node	Trie.h	/^	typedef TrieNode<Size>	Node;$/;"	t	class:Trie
+Node	WTrie.h	/^	typedef WTrieNode<Size>		Node;$/;"	t	class:WTrie
+PFC_AND	BevTree.h	/^		PFC_AND	= 2$/;"	e	enum:BevTree::ParallelFinishCondition
+PFC_OR	BevTree.h	/^		PFC_OR	= 1,$/;"	e	enum:BevTree::ParallelFinishCondition
+PNode	MapTrie.h	/^	typedef NodeType*	PNode;$/;"	t	class:MapTrie
+PNode	Trie.h	/^	typedef TrieNode<Size>*	PNode;$/;"	t	class:Trie
+PNode	WTrie.h	/^	typedef WTrieNode<Size>*	PNode;$/;"	t	class:WTrie
+PTrieNode	Trie.h	/^	typedef TrieNode* PTrieNode;$/;"	t	class:TrieNode
+PTrieNode	WTrie.h	/^	typedef WTrieNode* PTrieNode;$/;"	t	class:WTrieNode
+ParallelFinishCondition	BevTree.h	/^	enum ParallelFinishCondition$/;"	g	namespace:BevTree
+RING_BUFFER_SIZE	RingBuffer_bk.h	10;"	d
+RingBuffer	RingBuffer_bk.h	/^class RingBuffer$/;"	c
+SAFE_DELETE	RingBuffer_bk.h	12;"	d
+TNS_Finish	BevTree.h	/^		TNS_Finish	= 3$/;"	e	enum:BevTree::TerminalNodeStatus
+TNS_Ready	BevTree.h	/^		TNS_Ready	= 1,$/;"	e	enum:BevTree::TerminalNodeStatus
+TNS_Running	BevTree.h	/^		TNS_Running	= 2,$/;"	e	enum:BevTree::TerminalNodeStatus
+TRIE_SIZE	Config.h	8;"	d
+TerminalNodeStatus	BevTree.h	/^	enum TerminalNodeStatus$/;"	g	namespace:BevTree
+Trie	Trie.h	/^	Trie() {}$/;"	f	class:Trie
+Trie	Trie.h	/^class Trie$/;"	c
+TrieHashMap	MapTrie.h	/^	typedef std::unordered_map<std::string, HashMapTrieNode*> TrieHashMap;$/;"	t	struct:HashMapTrieNode
+TrieMap	MapTrie.h	/^	typedef std::map<std::string, MapTrieNode*> TrieMap;$/;"	t	struct:MapTrieNode
+TrieNode	Trie.h	/^	TrieNode() $/;"	f	class:TrieNode
+TrieNode	Trie.h	/^class TrieNode$/;"	c
+Utils	Utils.h	/^namespace Utils$/;"	n
+WIndexType	WTrie.h	/^class WIndexType$/;"	c
+WTrie	WTrie.h	/^	WTrie() {}$/;"	f	class:WTrie
+WTrie	WTrie.h	/^class WTrie$/;"	c
+WTrieNode	WTrie.h	/^	WTrieNode()$/;"	f	class:WTrieNode
+WTrieNode	WTrie.h	/^class WTrieNode$/;"	c
+_BEV_TREE_H__	BevTree.h	5;"	d
+_BINARY_SORT_TREE_H__	BSTree.h	7;"	d
+_CONFIG_H__	Config.h	6;"	d
+_FILE_PARSER_H__	FileParser.h	5;"	d
+_MAP_TRIE_H__	MapTrie.h	6;"	d
+_RING_BUFFER_H__	RingBuffer_bk.h	6;"	d
+_TRIE_H__	Trie.h	7;"	d
+_UTILS_H__	Utils.h	4;"	d
+_WTRIE_H__	WTrie.h	7;"	d
+_doEnter	BevTree.h	/^		virtual bool				_doEnter(const BevNodeInputParam& input)								{}$/;"	f	class:BevTree::BevNodeTerminal
+_doEvaluate	BevTree.cpp	/^	bool BevNodeLoop::_doEvaluate(const BevNodeInputParam& input)$/;"	f	class:BevTree::BevNodeLoop
+_doEvaluate	BevTree.cpp	/^	bool BevNodeNonePrioritySelector::_doEvaluate(const BevNodeInputParam& input)$/;"	f	class:BevTree::BevNodeNonePrioritySelector
+_doEvaluate	BevTree.cpp	/^	bool BevNodeParallel::_doEvaluate(const BevNodeInputParam& input)$/;"	f	class:BevTree::BevNodeParallel
+_doEvaluate	BevTree.cpp	/^	bool BevNodePrioritySelector::_doEvaluate(const BevNodeInputParam& input)$/;"	f	class:BevTree::BevNodePrioritySelector
+_doEvaluate	BevTree.cpp	/^	bool BevNodeSequence::_doEvaluate(const BevNodeInputParam& input)$/;"	f	class:BevTree::BevNodeSequence
+_doEvaluate	BevTree.h	/^		virtual bool _doEvaluate(const BevNodeInputParam& input)$/;"	f	class:BevTree::BevNode
+_doExecute	BevTree.h	/^		virtual BevRunningStatus	_doExecute(const BevNodeInputParam& input, BevNodeOutputParam& output)	{ return BRS_Finish; }$/;"	f	class:BevTree::BevNodeTerminal
+_doExit	BevTree.h	/^		virtual void				_doExit(const BevNodeInputParam& input, BevRunningStatus exitID)		{}$/;"	f	class:BevTree::BevNodeTerminal
+_doTick	BevTree.cpp	/^	BevRunningStatus BevNodeLoop::_doTick(const BevNodeInputParam& input, BevNodeOutputParam& output)$/;"	f	class:BevTree::BevNodeLoop
+_doTick	BevTree.cpp	/^	BevRunningStatus BevNodeParallel::_doTick(const BevNodeInputParam& input, BevNodeOutputParam& output)$/;"	f	class:BevTree::BevNodeParallel
+_doTick	BevTree.cpp	/^	BevRunningStatus BevNodePrioritySelector::_doTick(const BevNodeInputParam& input, BevNodeOutputParam& output)$/;"	f	class:BevTree::BevNodePrioritySelector
+_doTick	BevTree.cpp	/^	BevRunningStatus BevNodeSequence::_doTick(const BevNodeInputParam& input, BevNodeOutputParam& output)$/;"	f	class:BevTree::BevNodeSequence
+_doTick	BevTree.cpp	/^	BevRunningStatus BevNodeTerminal::_doTick(const BevNodeInputParam& input, BevNodeOutputParam& output)$/;"	f	class:BevTree::BevNodeTerminal
+_doTick	BevTree.h	/^		virtual BevRunningStatus _doTick(const BevNodeInputParam& input, BevNodeOutputParam& output)$/;"	f	class:BevTree::BevNode
+_doTransition	BevTree.cpp	/^	void BevNodeLoop::_doTransition(const BevNodeInputParam& input)$/;"	f	class:BevTree::BevNodeLoop
+_doTransition	BevTree.cpp	/^	void BevNodeParallel::_doTransition(const BevNodeInputParam& input)$/;"	f	class:BevTree::BevNodeParallel
+_doTransition	BevTree.cpp	/^	void BevNodePrioritySelector::_doTransition(const BevNodeInputParam& input)$/;"	f	class:BevTree::BevNodePrioritySelector
+_doTransition	BevTree.cpp	/^	void BevNodeSequence::_doTransition(const BevNodeInputParam& input)$/;"	f	class:BevTree::BevNodeSequence
+_doTransition	BevTree.cpp	/^	void BevNodeTerminal::_doTransition(const BevNodeInputParam& input)$/;"	f	class:BevTree::BevNodeTerminal
+_doTransition	BevTree.h	/^		virtual void _doTransition(const BevNodeInputParam& input)$/;"	f	class:BevTree::BevNode
+addChildNode	BevTree.h	/^		BevNode& addChildNode(BevNode* node)$/;"	f	class:BevTree::BevNode
+ch	MapTrie.h	/^	char ch[Size];$/;"	m	class:CharAlter
+change	BSTree.h	/^		void change(DST::uint32_t oldScore, DST::uint32_t newScore, ExtraDataType extra)$/;"	f	class:BSTree::BSTree
+change	BSTree.h	/^		void change(DST::uint32_t oldScore, DST::uint32_t newScore, ExtraType l, ExtraType r)$/;"	f	class:BSTree::BSTree
+checkIndex	BevTree.h	/^		bool checkIndex(DST::uint32_t index)$/;"	f	class:BevTree::BevNode
+children	MapTrie.h	/^	TrieHashMap children;$/;"	m	struct:HashMapTrieNode
+children	MapTrie.h	/^	TrieMap children;		\/\/map or hash_map $/;"	m	struct:MapTrieNode
+children	Trie.h	/^	PTrieNode children[Size];$/;"	m	class:TrieNode
+children	WTrie.h	/^	PTrieNode children[Size];$/;"	m	class:WTrieNode
+count	BSTree.h	/^		DST::uint32_t count = 0;$/;"	m	struct:BSTree::BSTNode
+curExePath	Config.h	/^	std::string curExePath = "";$/;"	m	struct:Global_Config
+destroy	BSTree.h	/^		void destroy()$/;"	f	class:BSTree::BSTree
+downNodeAlone	Trie.h	/^bool Trie<Size, Type>::downNodeAlone(Iterator beg)$/;"	f	class:Trie
+downNodeAlone	WTrie.h	/^bool WTrie<Size, Type>::downNodeAlone(Iterator beg)$/;"	f	class:WTrie
+end_of_day	Utils.h	/^	time_t end_of_day()$/;"	f	namespace:Utils
+end_of_month	Utils.h	/^	time_t end_of_month()$/;"	f	namespace:Utils
+enumerate	RingBuffer_bk.h	/^	 void enumerate(std::function<bool (BufferType*)> func)$/;"	f	class:RingBuffer
+erase	Trie.h	/^bool Trie<Size, Type>::erase(Iterator beg, Iterator end)$/;"	f	class:Trie
+erase	Trie.h	/^bool Trie<Size, Type>::erase(const char* str)$/;"	f	class:Trie
+erase	WTrie.h	/^bool WTrie<Size, Type>::erase(Iterator beg, Iterator end)$/;"	f	class:WTrie
+erase	WTrie.h	/^bool WTrie<Size, Type>::erase(const wchar_t* str)$/;"	f	class:WTrie
+eraseNode	BSTree.h	/^		void eraseNode(BSTreeNode* node)$/;"	f	class:BSTree::BSTree
+evaluate	BevTree.h	/^		bool evaluate(const BevNodeInputParam& input)$/;"	f	class:BevTree::BevNode
+extra	BSTree.h	/^		DST::ExtraData<ExtraType> extra;$/;"	m	struct:BSTree::BSTNodeData
+find	MapTrie.h	/^	bool find(const char* str)$/;"	f	class:MapTrie
+find	MapTrie.h	/^	bool find(const std::string& str)$/;"	f	class:MapTrie
+find	Trie.h	/^bool Trie<Size, Type>::find(Iterator beg, Iterator end)$/;"	f	class:Trie
+find	Trie.h	/^bool Trie<Size, Type>::find(const char* str)$/;"	f	class:Trie
+find	WTrie.h	/^bool WTrie<Size, Type>::find(Iterator beg, Iterator end)$/;"	f	class:WTrie
+find	WTrie.h	/^bool WTrie<Size, Type>::find(const wchar_t* str)$/;"	f	class:WTrie
+getLastActiveNode	BevTree.h	/^		BevNode* getLastActiveNode() const { return mLastActiveNode; }$/;"	f	class:BevTree::BevNode
+getNodeName	BevTree.h	/^		const char* getNodeName() const { return mNodeName.c_str(); }$/;"	f	class:BevTree::BevNode
+getRank	BSTree.h	/^		DST::uint32_t getRank(DST::uint32_t score, ExtraDataType extra)$/;"	f	class:BSTree::BSTree
+getRank	BSTree.h	/^		DST::uint32_t getRank(DST::uint32_t score, ExtraType l, ExtraType r)$/;"	f	class:BSTree::BSTree
+getRankOfNode	BSTree.h	/^		DST::uint32_t getRankOfNode(BSTreeNode* node, DST::uint32_t score, ExtraDataType extraData)$/;"	f	class:BSTree::BSTree
+getRoot	MapTrie.h	/^	const PNode getRoot() { return root; }$/;"	f	class:MapTrie
+getTopN	BSTree.h	/^		bool getTopN(std::vector<BSTNodeDataType>& dataVec, const DST::uint32_t n)$/;"	f	class:BSTree::BSTree
+hasNext	FileParser.cpp	/^bool FileParser::hasNext()$/;"	f	class:FileParser
+head	BSTree.h	/^		BSTreeNode* head = nullptr;$/;"	m	class:BSTree::BSTree
+index	Trie.h	/^	Type index;$/;"	m	class:Trie
+index	WTrie.h	/^	Type index;$/;"	m	class:WTrie
+init	BSTree.h	/^		void init(DST::uint32_t lb, DST::uint32_t rb)$/;"	f	class:BSTree::BSTree
+insert	BSTree.h	/^		void insert(DST::uint32_t score, ExtraDataType extra)$/;"	f	class:BSTree::BSTree
+insert	BSTree.h	/^		void insert(DST::uint32_t score, ExtraType l, ExtraType r)$/;"	f	class:BSTree::BSTree
+insert	MapTrie.h	/^	bool insert(const char* str)$/;"	f	class:MapTrie
+insert	MapTrie.h	/^	bool insert(const std::string& str)$/;"	f	class:MapTrie
+insert	Trie.h	/^void Trie<Size, Type>::insert(Iterator beg, Iterator end)$/;"	f	class:Trie
+insert	Trie.h	/^void Trie<Size, Type>::insert(const char* str)$/;"	f	class:Trie
+insert	WTrie.h	/^void WTrie<Size, Type>::insert(Iterator beg, Iterator end)$/;"	f	class:WTrie
+insert	WTrie.h	/^void WTrie<Size, Type>::insert(const wchar_t* str)$/;"	f	class:WTrie
+insertNode	BSTree.h	/^		void insertNode(BSTreeNode* node, DST::uint32_t score, ExtraDataType extraData)$/;"	f	class:BSTree::BSTree
+isEmpty	RingBuffer_bk.h	/^ 	bool isEmpty() { return mHead == mTail; }$/;"	f	class:RingBuffer
+isFull	RingBuffer_bk.h	/^	bool isFull() { return mHead == (mTail+1)%RING_BUFFER_SIZE; }$/;"	f	class:RingBuffer
+isInsideNode	BSTree.h	/^		bool isInsideNode(BSTreeNode* node, DST::uint32_t score)$/;"	f	class:BSTree::BSTree
+isLeafNode	BSTree.h	/^		bool isLeafNode(BSTreeNode* node)$/;"	f	class:BSTree::BSTree
+l_child	BSTree.h	/^		struct BSTNode* l_child = nullptr;$/;"	m	struct:BSTree::BSTNode	typeref:struct:BSTree::BSTNode::BSTNode
+lower_bound	BSTree.h	/^		DST::uint32_t lower_bound = 0;$/;"	m	struct:BSTree::BSTNode
+mActiveNode	BevTree.h	/^		BevNode*				mActiveNode;$/;"	m	class:BevTree::BevNode
+mChildNodeCount	BevTree.h	/^		DST::uint32_t			mChildNodeCount;$/;"	m	class:BevTree::BevNode
+mChildNodeList	BevTree.h	/^		BevNode*				mChildNodeList[MAX_CHILD_NODE_COUNT];$/;"	m	class:BevTree::BevNode
+mChildNodeStatus	BevTree.h	/^		BevRunningStatus	mChildNodeStatus[MAX_CHILD_NODE_COUNT];$/;"	m	class:BevTree::BevNodeParallel
+mContent	FileParser.h	/^	DST::CStrVecVec mContent;$/;"	m	class:FileParser
+mCurCount	BevTree.h	/^		DST::int32_t mCurCount;$/;"	m	class:BevTree::BevNodeLoop
+mCurIndex	FileParser.h	/^	DST::uint32_t mCurIndex = 0;$/;"	m	class:FileParser
+mCurNodeIndex	BevTree.h	/^		DST::uint32_t mCurNodeIndex;$/;"	m	class:BevTree::BevNodeSequence
+mCurSelectIndex	BevTree.h	/^		DST::uint32_t mCurSelectIndex;$/;"	m	class:BevTree::BevNodePrioritySelector
+mData	RingBuffer_bk.h	/^	BufferType mData[RING_BUFFER_SIZE] = {0};$/;"	m	class:RingBuffer
+mExtraArray	BSTree.h	/^		DST::ExtraArray<ExtraType> mExtraArray;$/;"	m	struct:BSTree::BSTNode
+mFile	FileParser.h	/^	std::string mFile;$/;"	m	class:FileParser
+mFinishCondition	BevTree.h	/^		ParallelFinishCondition	mFinishCondition;$/;"	m	class:BevTree::BevNodeParallel
+mHead	RingBuffer_bk.h	/^	int mHead = 0;$/;"	m	class:RingBuffer
+mIsNeedExit	BevTree.h	/^		bool				mIsNeedExit;$/;"	m	class:BevTree::BevNodeTerminal
+mLastActiveNode	BevTree.h	/^		BevNode*				mLastActiveNode;$/;"	m	class:BevTree::BevNode
+mLastSelectIndex	BevTree.h	/^		DST::uint32_t mLastSelectIndex;$/;"	m	class:BevTree::BevNodePrioritySelector
+mLineSplitStr	FileParser.h	/^	char* mLineSplitStr = "\\n";$/;"	m	class:FileParser
+mLineSplitStr	FileParser.h	/^	char* mLineSplitStr = "\\r\\n";$/;"	m	class:FileParser
+mLoopCount	BevTree.h	/^		DST::int32_t mLoopCount;$/;"	m	class:BevTree::BevNodeLoop
+mNodeName	BevTree.h	/^		std::string				mNodeName;$/;"	m	class:BevTree::BevNode
+mNodePrecondition	BevTree.h	/^		BevNodePrecondition*	mNodePrecondition;$/;"	m	class:BevTree::BevNode
+mParentNode	BevTree.h	/^		BevNode*				mParentNode;$/;"	m	class:BevTree::BevNode
+mPreConVec	BevTree.h	/^		std::vector<BevNodePrecondition*> mPreConVec;$/;"	m	class:BevTree::BevNodeMultiPreconditionAND
+mPreConVec	BevTree.h	/^		std::vector<BevNodePrecondition*> mPreConVec;$/;"	m	class:BevTree::BevNodeMultiPreconditionOR
+mPreIndex	FileParser.h	/^	DST::uint32_t mPreIndex = 0;$/;"	m	class:FileParser
+mRowSplitStr	FileParser.h	/^	char* mRowSplitStr = ",";$/;"	m	class:FileParser
+mStatus	BevTree.h	/^		TerminalNodeStatus	mStatus;$/;"	m	class:BevTree::BevNodeTerminal
+mTail	RingBuffer_bk.h	/^	int mTail = 0;$/;"	m	class:RingBuffer
+m_lhs	BevTree.h	/^		BevNodePrecondition* m_lhs;$/;"	m	class:BevTree::BevNodePreconditionAND
+m_lhs	BevTree.h	/^		BevNodePrecondition* m_lhs;$/;"	m	class:BevTree::BevNodePreconditionNOT
+m_lhs	BevTree.h	/^		BevNodePrecondition* m_lhs;$/;"	m	class:BevTree::BevNodePreconditionOR
+m_lhs	BevTree.h	/^		BevNodePrecondition* m_lhs;$/;"	m	class:BevTree::BevNodePreconditionXOR
+m_rhs	BevTree.h	/^		BevNodePrecondition* m_rhs;$/;"	m	class:BevTree::BevNodePreconditionAND
+m_rhs	BevTree.h	/^		BevNodePrecondition* m_rhs;$/;"	m	class:BevTree::BevNodePreconditionOR
+m_rhs	BevTree.h	/^		BevNodePrecondition* m_rhs;$/;"	m	class:BevTree::BevNodePreconditionXOR
+middle_of_two_numbers	Utils.h	/^	unsigned int middle_of_two_numbers(unsigned int low, unsigned int upper)$/;"	f	namespace:Utils
+next	BSTree.h	/^		struct BSTNode* next = nullptr;$/;"	m	struct:BSTree::BSTNode	typeref:struct:BSTree::BSTNode::BSTNode
+nodeSize	Trie.h	/^	int nodeSize = 0;$/;"	m	class:TrieNode
+nodeSize	WTrie.h	/^	int nodeSize = 0;$/;"	m	class:WTrieNode
+noon_of_day	Utils.h	/^	time_t noon_of_day()$/;"	f	namespace:Utils
+oCreateLoopNode	BevTree.h	/^		static BevNode& oCreateLoopNode(BevNode* parentNode, const char* nodeName)$/;"	f	class:BevTree::BevNodeFactory
+oCreateNodeCommon	BevTree.h	/^		static void oCreateNodeCommon(BevNode* me, BevNode* parentNode, const char* nodeName)$/;"	f	class:BevTree::BevNodeFactory
+oCreateNonePrioritySelectorNode	BevTree.h	/^		static BevNode& oCreateNonePrioritySelectorNode(BevNode* parentNode, const char* nodeName)$/;"	f	class:BevTree::BevNodeFactory
+oCreateParallelNode	BevTree.h	/^		static BevNode& oCreateParallelNode(BevNode* parentNode, ParallelFinishCondition condition, const char* nodeName)$/;"	f	class:BevTree::BevNodeFactory
+oCreatePrioritySelectorNode	BevTree.h	/^		static BevNode& oCreatePrioritySelectorNode(BevNode* parentNode, const char* nodeName)$/;"	f	class:BevTree::BevNodeFactory
+oCreateSequenceNode	BevTree.h	/^		static BevNode& oCreateSequenceNode(BevNode* parentNode, const char* nodeName)$/;"	f	class:BevTree::BevNodeFactory
+oCreateTerminalNode	BevTree.h	/^		static BevNode& oCreateTerminalNode(BevNode* parentNode, const char* nodeName)$/;"	f	class:BevTree::BevNodeFactory
+operator []	Trie.h	/^	int operator[](char ch)$/;"	f	class:IndexType
+operator []	WTrie.h	/^	int operator[](wchar_t ch)$/;"	f	class:WIndexType
+override	BevTree.h	/^		virtual BevRunningStatus _doTick(const BevNodeInputParam& input, BevNodeOutputParam& output) override;$/;"	m	class:BevTree::BevNodeLoop
+override	BevTree.h	/^		virtual BevRunningStatus _doTick(const BevNodeInputParam& input, BevNodeOutputParam& output) override;$/;"	m	class:BevTree::BevNodeParallel
+override	BevTree.h	/^		virtual BevRunningStatus _doTick(const BevNodeInputParam& input, BevNodeOutputParam& output) override;$/;"	m	class:BevTree::BevNodePrioritySelector
+override	BevTree.h	/^		virtual BevRunningStatus _doTick(const BevNodeInputParam& input, BevNodeOutputParam& output) override;$/;"	m	class:BevTree::BevNodeSequence
+override	BevTree.h	/^		virtual BevRunningStatus _doTick(const BevNodeInputParam& input, BevNodeOutputParam& output) override;$/;"	m	class:BevTree::BevNodeTerminal
+override	BevTree.h	/^		virtual bool _doEvaluate(const BevNodeInputParam& input) override;$/;"	m	class:BevTree::BevNodeLoop
+override	BevTree.h	/^		virtual bool _doEvaluate(const BevNodeInputParam& input) override;$/;"	m	class:BevTree::BevNodeNonePrioritySelector
+override	BevTree.h	/^		virtual bool _doEvaluate(const BevNodeInputParam& input) override;$/;"	m	class:BevTree::BevNodeParallel
+override	BevTree.h	/^		virtual bool _doEvaluate(const BevNodeInputParam& input) override;$/;"	m	class:BevTree::BevNodePrioritySelector
+override	BevTree.h	/^		virtual bool _doEvaluate(const BevNodeInputParam& input) override;$/;"	m	class:BevTree::BevNodeSequence
+override	BevTree.h	/^		virtual void _doTransition(const BevNodeInputParam& input) override;$/;"	m	class:BevTree::BevNodeLoop
+override	BevTree.h	/^		virtual void _doTransition(const BevNodeInputParam& input) override;$/;"	m	class:BevTree::BevNodeParallel
+override	BevTree.h	/^		virtual void _doTransition(const BevNodeInputParam& input) override;$/;"	m	class:BevTree::BevNodePrioritySelector
+override	BevTree.h	/^		virtual void _doTransition(const BevNodeInputParam& input) override;$/;"	m	class:BevTree::BevNodeSequence
+override	BevTree.h	/^		virtual void _doTransition(const BevNodeInputParam& input) override;$/;"	m	class:BevTree::BevNodeTerminal
+parse	FileParser.cpp	/^bool FileParser::parse()$/;"	f	class:FileParser
+parse	FileParser.cpp	/^bool FileParser::parse(const std::string& filePath)$/;"	f	class:FileParser
+pop	RingBuffer_bk.h	/^	 BufferType pop()$/;"	f	class:RingBuffer
+popAll	RingBuffer_bk.h	/^	bool popAll(BufferType *data, int *size)$/;"	f	class:RingBuffer
+prev	BSTree.h	/^		struct BSTNode* prev = nullptr;$/;"	m	struct:BSTree::BSTNode	typeref:struct:BSTree::BSTNode::BSTNode
+push	RingBuffer_bk.h	/^	 bool push(BufferType data)$/;"	f	class:RingBuffer
+r_child	BSTree.h	/^		struct BSTNode* r_child = nullptr;$/;"	m	struct:BSTree::BSTNode	typeref:struct:BSTree::BSTNode::BSTNode
+ranking	BSTree.h	/^		DST::uint32_t ranking = 0;$/;"	m	struct:BSTree::BSTNodeData
+remove	BSTree.h	/^		void remove(DST::uint32_t score, ExtraDataType extra)$/;"	f	class:BSTree::BSTree
+remove	BSTree.h	/^		void remove(DST::uint32_t score, ExtraType l, ExtraType r)$/;"	f	class:BSTree::BSTree
+removeNode	BSTree.h	/^		void removeNode(BSTreeNode* node, DST::uint32_t score, ExtraDataType extraData)$/;"	f	class:BSTree::BSTree
+root	BSTree.h	/^		BSTreeNode* root = nullptr;$/;"	m	class:BSTree::BSTree
+root	MapTrie.h	/^	PNode root = new Node;$/;"	m	class:MapTrie
+root	Trie.h	/^	PNode root = new Node;$/;"	m	class:Trie
+root	WTrie.h	/^	PNode root = new Node;$/;"	m	class:WTrie
+score	BSTree.h	/^		DST::uint32_t score = 0;$/;"	m	struct:BSTree::BSTNodeData
+setActiveNode	BevTree.h	/^		BevNode& setActiveNode(BevNode* node)$/;"	f	class:BevTree::BevNode
+setFinishCondition	BevTree.cpp	/^	BevNodeParallel& BevNodeParallel::setFinishCondition(ParallelFinishCondition condition)$/;"	f	class:BevTree::BevNodeParallel
+setNodeName	BevTree.h	/^		BevNode& setNodeName(const char* nodename)$/;"	f	class:BevTree::BevNode
+setParentNode	BevTree.h	/^		void setParentNode(BevNode* parentNode)$/;"	f	class:BevTree::BevNode
+setPrecondition	BevTree.h	/^		BevNode& setPrecondition(BevNodePrecondition* con)$/;"	f	class:BevTree::BevNode
+setupNode	BSTree.h	/^		BSTreeNode* setupNode(BSTreeNode* node, DST::uint32_t lb, DST::uint32_t rb)$/;"	f	class:BSTree::BSTree
+sscanf_between_two_split_strs	Utils.h	/^	void sscanf_between_two_split_strs()$/;"	f	namespace:Utils
+start_of_day	Utils.h	/^	time_t start_of_day()$/;"	f	namespace:Utils
+sum_of_arithmetic_progression	Utils.h	/^	unsigned int sum_of_arithmetic_progression(unsigned int low_bound, unsigned int high_bound, unsigned int diffValue = 1)$/;"	f	namespace:Utils
+tail	BSTree.h	/^		BSTreeNode* tail = nullptr;$/;"	m	class:BSTree::BSTree
+terminableSize	Trie.h	/^	int terminableSize = 0;$/;"	m	class:TrieNode
+terminableSize	WTrie.h	/^	int terminableSize = 0;$/;"	m	class:WTrieNode
+terminalSize	MapTrie.h	/^	int terminalSize = 0;	\/\/count that ends by this char$/;"	m	struct:MapTrieNode
+terminalSize	MapTrie.h	/^	int terminalSize = 0;$/;"	m	struct:HashMapTrieNode
+tick	BevTree.h	/^		BevRunningStatus tick(const BevNodeInputParam& input, BevNodeOutputParam& output)$/;"	f	class:BevTree::BevNode
+toInt16	FileParser.cpp	/^int16_t FileParser::toInt16(const char* key)$/;"	f	class:FileParser
+toInt32	FileParser.cpp	/^int32_t FileParser::toInt32(const char* key)$/;"	f	class:FileParser
+toInt64	FileParser.cpp	/^int64_t FileParser::toInt64(const char* key)$/;"	f	class:FileParser
+toInt8	FileParser.cpp	/^int8_t FileParser::toInt8(const char* key)$/;"	f	class:FileParser
+toString	FileParser.cpp	/^std::string FileParser::toString(const char* key)$/;"	f	class:FileParser
+toUInt16	FileParser.cpp	/^uint16_t FileParser::toUInt16(const char* key)$/;"	f	class:FileParser
+toUInt32	FileParser.cpp	/^uint32_t FileParser::toUInt32(const char* key)$/;"	f	class:FileParser
+toUInt64	FileParser.cpp	/^uint64_t FileParser::toUInt64(const char* key)$/;"	f	class:FileParser
+toUInt8	FileParser.cpp	/^uint8_t FileParser::toUInt8(const char* key)$/;"	f	class:FileParser
+totalNoReNodes	Trie.h	/^int Trie<Size, Type>::totalNoReNodes(PNode pNode)$/;"	f	class:Trie
+totalNoReNodes	WTrie.h	/^int WTrie<Size, Type>::totalNoReNodes(PNode pNode)$/;"	f	class:WTrie
+totalNodes	MapTrie.h	/^	size_t totalNodes(PNode pNode)$/;"	f	class:MapTrie
+totalNodes	Trie.h	/^int Trie<Size, Type>::totalNodes(PNode pNode)$/;"	f	class:Trie
+totalNodes	WTrie.h	/^int WTrie<Size, Type>::totalNodes(PNode pNode)$/;"	f	class:WTrie
+transition	BevTree.h	/^		void transition(const BevNodeInputParam& input)$/;"	f	class:BevTree::BevNode
+upper_bound	BSTree.h	/^		DST::uint32_t upper_bound = 0;$/;"	m	struct:BSTree::BSTNode
+~BSTree	BSTree.h	/^		~BSTree()$/;"	f	class:BSTree::BSTree
+~BevNode	BevTree.h	/^		virtual ~BevNode()$/;"	f	class:BevTree::BevNode
+~BevNodeMultiPreconditionAND	BevTree.h	/^		~BevNodeMultiPreconditionAND()$/;"	f	class:BevTree::BevNodeMultiPreconditionAND
+~BevNodeMultiPreconditionOR	BevTree.h	/^		~BevNodeMultiPreconditionOR()$/;"	f	class:BevTree::BevNodeMultiPreconditionOR
+~BevNodePreconditionAND	BevTree.h	/^		~BevNodePreconditionAND()$/;"	f	class:BevTree::BevNodePreconditionAND
+~BevNodePreconditionNOT	BevTree.h	/^		~BevNodePreconditionNOT()$/;"	f	class:BevTree::BevNodePreconditionNOT
+~BevNodePreconditionOR	BevTree.h	/^		~BevNodePreconditionOR()$/;"	f	class:BevTree::BevNodePreconditionOR
+~BevNodePreconditionXOR	BevTree.h	/^		~BevNodePreconditionXOR()$/;"	f	class:BevTree::BevNodePreconditionXOR
+~FileParser	FileParser.h	/^	~FileParser() {}$/;"	f	class:FileParser
+~MapTrie	MapTrie.h	/^	virtual ~MapTrie() {}$/;"	f	class:MapTrie
+~TrieNode	Trie.h	/^	~TrieNode()$/;"	f	class:TrieNode
+~WTrieNode	WTrie.h	/^	~WTrieNode()$/;"	f	class:WTrieNode

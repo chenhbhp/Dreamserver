@@ -1,0 +1,20 @@
+﻿生成启动时间为 2016/12/16 14:50:45。
+     1>项目“E:\chb\debug\DreamServer\NB_Server\NB_Server.vcxproj”在节点 2 上(Build 个目标)。
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /Zi /nologo /W3 /WX- /O2 /Oi /Oy- /GL /D WIN32 /D NDEBUG /D _CONSOLE /D _LIB /D _UNICODE /D UNICODE /D _AFXDLL /Gm- /EHsc /MDd /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Release\\" /Fd"Release\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt ..\luatinker\LuaState.cpp
+         LuaState.cpp
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"E:\chb\debug\DreamServer\Release\NB_Server.exe" /INCREMENTAL:NO /NOLOGO lua52_vs2005.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /manifestinput:"C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\Include\Manifest\dpiaware.manifest" /DEBUG /PDB:"E:\chb\debug\DreamServer\Release\NB_Server.pdb" /SUBSYSTEM:CONSOLE /OPT:REF /OPT:ICF /LTCG /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"E:\chb\debug\DreamServer\Release\NB_Server.lib" /MACHINE:X86 /SAFESEH /NODEFAULTLIB:libcmt.lib Release\BevTree.obj
+         Release\FileParser.obj
+         Release\LuaState.obj
+         Release\lua_tinker.obj
+         Release\IOCP.obj
+         Release\DataFileManager.obj
+         Release\main.obj
+         Release\Message.obj
+     1>LINK : fatal error LNK1181: 无法打开输入文件“lua52_vs2005.lib”
+     1>已完成生成项目“E:\chb\debug\DreamServer\NB_Server\NB_Server.vcxproj”(Build 个目标)的操作 - 失败。
+
+生成失败。
+
+已用时间 00:00:00.47

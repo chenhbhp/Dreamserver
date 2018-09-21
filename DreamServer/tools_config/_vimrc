@@ -1,0 +1,94 @@
+set nocompatible
+source $VIMRUNTIME/vimrc_example.vim
+source $VIMRUNTIME/mswin.vim
+behave mswin
+
+set diffexpr=MyDiff()
+function MyDiff()
+  let opt = '-a --binary '
+  if &diffopt =~ 'icase' | let opt = opt . '-i ' | endif
+  if &diffopt =~ 'iwhite' | let opt = opt . '-b ' | endif
+  let arg1 = v:fname_in
+  if arg1 =~ ' ' | let arg1 = '"' . arg1 . '"' | endif
+  let arg2 = v:fname_new
+  if arg2 =~ ' ' | let arg2 = '"' . arg2 . '"' | endif
+  let arg3 = v:fname_out
+  if arg3 =~ ' ' | let arg3 = '"' . arg3 . '"' | endif
+  let eq = ''
+  if $VIMRUNTIME =~ ' '
+    if &sh =~ '\<cmd'
+      let cmd = '""' . $VIMRUNTIME . '\diff"'
+      let eq = '"'
+    else
+      let cmd = substitute($VIMRUNTIME, ' ', '" ', '') . '\diff"'
+    endif
+  else
+    let cmd = $VIMRUNTIME . '\diff'
+  endif
+  silent execute '!' . cmd . ' ' . opt . arg1 . ' ' . arg2 . ' > ' . arg3 . eq
+endfunction
+
+"new add --by chb
+
+syntax enable
+
+set tabstop=4				"TAB距离
+set nobackup				"让vim不生成备份文件
+set nu
+set hlsearch
+"set background=dark
+set guifont=Consolas:h14	"字体大小
+set autowrite				"自动保存
+set cursorline				"突出显示当前行
+colorscheme torte			"设置配色方案为背景黑色
+"自动缩进
+set autoindent
+set cindent
+
+
+"tags
+set tags=tags
+
+"taglist
+"let Tlist_Use_SingleClick=1
+"let Tlist_File_Fold_Auto_Close=1
+let Tlist_Ctags_Cmd='E:\\vimcofig\\ctags58\\ctags'
+
+"自动补全符号
+" ()
+:inoremap ( ()<ESC>i
+:inoremap ) <c-r>=ClosePair(')')<CR>
+" {}
+:inoremap { {<CR>}<ESC>O
+:inoremap } <c-r>=ClosePair('}')<CR>
+" []
+:inoremap [ []<ESC>i
+:inoremap ] <c-r>=ClosePair(']')<CR>
+" "and'
+:inoremap " ""<ESC>i
+:inoremap ' ''<ESC>i
+
+
+
+
+function ClosePair(char)
+	if getline('.')[col('.')-1] == a:char
+		return "\<Right>"
+	else
+		return a:char
+	endif
+endfunction
+
+
+
+
+"winmananger setting
+"let g:winManagerWindowLayout="BufExplorer,FileExplorer|TagList"
+"let g:winManagerWidth=30
+"let g:defaultExplorer=0
+"map<c-w><c-f>:FirstExplorerWindow<cr>
+"map<c-w><c-b>:BottomExplorerWindow<cr>
+"map<c-w><c-t>:WMToggle<cr>
+
+
+

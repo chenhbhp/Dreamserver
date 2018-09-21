@@ -1,0 +1,155 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="头文件">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="资源文件">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="common">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="base">
+      <UniqueIdentifier>{0eb6bc3a-a92d-469c-afb8-9fb439f0103d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="data">
+      <UniqueIdentifier>{fa2e7f02-8a80-4e9b-ba69-a945af9ac938}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="net">
+      <UniqueIdentifier>{03ca46d9-f843-4eca-90f2-2ea6385b8fc7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="luatinker">
+      <UniqueIdentifier>{41540765-6fe9-48d6-a6b1-c28855264d3b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="dumpReport">
+      <UniqueIdentifier>{7dfe43c2-fe22-45a3-b8b3-963706711725}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="main.cpp">
+      <Filter>头文件</Filter>
+    </ClCompile>
+    <ClCompile Include="..\common\FileParser.cpp">
+      <Filter>common</Filter>
+    </ClCompile>
+    <ClCompile Include="DataFileManager.cpp">
+      <Filter>data</Filter>
+    </ClCompile>
+    <ClCompile Include="..\net\IOCP.cpp">
+      <Filter>net</Filter>
+    </ClCompile>
+    <ClCompile Include="Message.cpp">
+      <Filter>net</Filter>
+    </ClCompile>
+    <ClCompile Include="..\luatinker\lua_tinker.cpp">
+      <Filter>luatinker</Filter>
+    </ClCompile>
+    <ClCompile Include="..\luatinker\LuaState.cpp">
+      <Filter>luatinker</Filter>
+    </ClCompile>
+    <ClCompile Include="..\common\BevTree.cpp">
+      <Filter>common</Filter>
+    </ClCompile>
+    <ClCompile Include="..\base\Queue.cpp">
+      <Filter>base</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\common\Trie.h">
+      <Filter>common</Filter>
+    </ClInclude>
+    <ClInclude Include="..\common\Config.h">
+      <Filter>common</Filter>
+    </ClInclude>
+    <ClInclude Include="..\common\WTrie.h">
+      <Filter>common</Filter>
+    </ClInclude>
+    <ClInclude Include="..\common\MapTrie.h">
+      <Filter>common</Filter>
+    </ClInclude>
+    <ClInclude Include="..\common\FileParser.h">
+      <Filter>common</Filter>
+    </ClInclude>
+    <ClInclude Include="..\base\Base.h">
+      <Filter>base</Filter>
+    </ClInclude>
+    <ClInclude Include="..\base\DataStruct.h">
+      <Filter>base</Filter>
+    </ClInclude>
+    <ClInclude Include="DataFileManager.h">
+      <Filter>data</Filter>
+    </ClInclude>
+    <ClInclude Include="DataFileTypes.h">
+      <Filter>data</Filter>
+    </ClInclude>
+    <ClInclude Include="..\net\IOCP.h">
+      <Filter>net</Filter>
+    </ClInclude>
+    <ClInclude Include="Message.h">
+      <Filter>net</Filter>
+    </ClInclude>
+    <ClInclude Include="..\luatinker\lua_tinker.h">
+      <Filter>luatinker</Filter>
+    </ClInclude>
+    <ClInclude Include="..\luatinker\LuaState.h">
+      <Filter>luatinker</Filter>
+    </ClInclude>
+    <ClInclude Include="..\luatinker\lauxlib.h">
+      <Filter>luatinker</Filter>
+    </ClInclude>
+    <ClInclude Include="..\luatinker\lua.h">
+      <Filter>luatinker</Filter>
+    </ClInclude>
+    <ClInclude Include="..\luatinker\luaconf.h">
+      <Filter>luatinker</Filter>
+    </ClInclude>
+    <ClInclude Include="..\luatinker\lualib.h">
+      <Filter>luatinker</Filter>
+    </ClInclude>
+    <ClInclude Include="..\common\BevTree.h">
+      <Filter>common</Filter>
+    </ClInclude>
+    <ClInclude Include="..\common\Utils.h">
+      <Filter>common</Filter>
+    </ClInclude>
+    <ClInclude Include="..\common\BSTree.h">
+      <Filter>common</Filter>
+    </ClInclude>
+    <ClInclude Include="..\common\RingBuffer.h">
+      <Filter>common</Filter>
+    </ClInclude>
+    <ClInclude Include="..\common\SimpleBevTree.h">
+      <Filter>common</Filter>
+    </ClInclude>
+    <ClInclude Include="Bag.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Item.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="..\common\HashTable.h">
+      <Filter>common</Filter>
+    </ClInclude>
+    <ClInclude Include="..\common\AStar.h">
+      <Filter>common</Filter>
+    </ClInclude>
+    <ClInclude Include="..\base\Queue.h">
+      <Filter>base</Filter>
+    </ClInclude>
+    <ClInclude Include="..\reportDump\ReportDump.h">
+      <Filter>dumpReport</Filter>
+    </ClInclude>
+    <ClInclude Include="..\base\MsgProcessor.h">
+      <Filter>base</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="..\common\AStar.inl">
+      <Filter>common</Filter>
+    </None>
+  </ItemGroup>
+</Project>
