@@ -23,6 +23,7 @@
 #include <ReportDump.h>
 #include <Queue.h>
 #include <MsgProcessor.h>
+#include "../examples/TestQueueLockFree.h"
 
 #include <random>
 
@@ -75,31 +76,31 @@ std::string getCurPath(char* inPath)
 }
 
 
-
-
 int main(int argc, char* argv[])
 {
 	std::cout << "This is NB Server!" << std::endl;
 	srand(time(nullptr));
+	TestQueueLockFree();
 
-	std::cout << Utils::start_of_day() << std::endl;
 
-	std::default_random_engine generator(9);
-	std::uniform_int_distribution<int> distrib(0, 9);
+	//std::cout << Utils::start_of_day() << std::endl;
 
-	int loopNum = 30000;
-	std::map<int, int> randMap;
-	while (loopNum-- > 0)
-	{
-		int randNum = distrib(generator);
-		//int temp = randMap[randNum];
-		++randMap[randNum] ;
-	}
+	//std::default_random_engine generator(9);
+	//std::uniform_int_distribution<int> distrib(0, 9);
 
-	for (auto it = randMap.begin(); it != randMap.end(); ++it)
-	{
-		std::cout << it->first << ": " << it->second << std::endl;
-	}
+	//int loopNum = 30000;
+	//std::map<int, int> randMap;
+	//while (loopNum-- > 0)
+	//{
+	//	int randNum = distrib(generator);
+	//	//int temp = randMap[randNum];
+	//	++randMap[randNum] ;
+	//}
+
+	//for (auto it = randMap.begin(); it != randMap.end(); ++it)
+	//{
+	//	std::cout << it->first << ": " << it->second << std::endl;
+	//}
 
 	/*int loopNum = 3000;
 	int N = 8;
@@ -222,5 +223,6 @@ int main(int argc, char* argv[])
 	std::cout << "parsing file has finished !" << std::endl;*/
 
 
+	system("pause");
 	return 0;
 }
