@@ -10,13 +10,13 @@
 
 #define CHUNKS_NUM	1
 #define CHUNKS_RESERVE_NUM 128
-#define NODES_NUM	128
+#define NODES_NUM	5
 
 template<class T>
 class ChunkNodeT
 {
 public:
-	ChunkNodeT(int capacity)
+	ChunkNodeT(int capacity = NODES_NUM)
 	{
 		mTail = -1;
 		mMax = capacity;
@@ -27,11 +27,8 @@ public:
 
 	virtual ~ChunkNodeT()
 	{
-		for (int i = 0; i < mMax; ++i)
-		{
-			delete[] mList;
-			mList = nullptr;
-		}
+		delete[] mList;	//自动调用 ~T()
+		mList = nullptr;
 	}
 
 public:
@@ -94,6 +91,7 @@ public:
 		}
 		else
 		{
+			//todo improve : 
 			for (auto pn : mChunksVec)
 			{
 				if (!pn->IsFull())
